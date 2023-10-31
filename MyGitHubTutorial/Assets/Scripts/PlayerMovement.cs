@@ -13,4 +13,16 @@ public class PlayerMovement : MonoBehaviour
         //moves the player
     }
       
+    private Vector3 moveDirection;
+    private int speed = 10;
+
+    public void Jump()
+    {
+        //player can jump
+    }
+
+    public void Movement()
+    {
+        // moves the player
+    }
 }
